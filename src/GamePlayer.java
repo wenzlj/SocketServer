@@ -1,3 +1,4 @@
+// Go Big Blue Super Bowl Giants
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.DataInputStream;
@@ -7,8 +8,6 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class GamePlayer {
-
-    //Ei Manning... Eli Manning... ELLLLIIIII MAAAAANNNNNINNNGG
 
     private boolean running = false;
     private Socket connection;
