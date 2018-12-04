@@ -8,6 +8,8 @@ import java.util.ArrayList;
 
 public class GamePlayer {
 
+    //Ei Manning... Eli Manning... ELLLLIIIII MAAAAANNNNNINNNG
+
     private boolean running = false;
     private Socket connection;
 
