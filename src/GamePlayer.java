@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class GamePlayer {
 
-    //Ei Manning... Eli Manning... ELLLLIIIII MAAAAANNNNNINNNG
+    //Ei Manning... Eli Manning... ELLLLIIIII MAAAAANNNNNINNNGG
 
     private boolean running = false;
     private Socket connection;
