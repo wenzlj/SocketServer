@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class GamePlayer {
 
+    //huans cheatriots
     private boolean running = false;
     private Socket connection;
 
