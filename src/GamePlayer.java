@@ -1,4 +1,4 @@
-// Go Big Blue Super Bowl Giants
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.DataInputStream;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class GamePlayer {
 
-    //huans cheatriots
+// Deflate-Gate, Spy-Gate, huansbrady-Gate
     private boolean running = false;
     private Socket connection;
 
