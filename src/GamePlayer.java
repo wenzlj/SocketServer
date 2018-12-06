@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class GamePlayer {
 
-// Deflate-Gate, Spy-Gate, huansbrady-Gate
+// Deflate-Gate, Spy-Gate, huansbrady-Gate, huans andi
     private boolean running = false;
     private Socket connection;
 
