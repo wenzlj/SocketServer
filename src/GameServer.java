@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class GameServer {
     private int port;
     private boolean running = false;
-//jebo sunce
+    
     private ArrayList<GamePlayer> clients = new ArrayList<>();
 
     public GameServer(int port) {
