@@ -5,9 +5,10 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class GameServer {
-    private int port;
+    private int port = 187;
     private boolean running = false;
-    
+    public String test;
+
     private ArrayList<GamePlayer> clients = new ArrayList<>();
 
     public GameServer(int port) {
@@ -38,6 +39,7 @@ public class GameServer {
 
                     while (running) {
                         // Client verbindet sich auf den Server
+
                         Socket client = server.accept();
 
                         // Weitere Aktionen mit dem Client
@@ -45,7 +47,9 @@ public class GameServer {
 
                         p.addActionListener(broadcastListener);
 
+                        p.start();
                         clients.add(p);
+                        p.send(test);
                     }
                 } catch (Exception e) {
 
